@@ -1,0 +1,63 @@
+Fitur JMeter
+* Test Plan
+* Thread Group
+* HTTP request
+* HTTP Header Manager
+* Listener
+* Assertion
+
+Thread Group 
+THG mendefiniskan berapa banyak pengguna (thread) yang akan digunakan
+dalam testing, berapa lama setiap pengguna akan menjalankan test, dai lain sebagainya
+
+Assertion
+Assertion dalam Apache JMeter adalah elemen yang digunakan untuk memverifikasi apakah respons dari server memenuhi kondisi tertentu atau ekspektasi
+yang telah di tentukan
+JMeter menyediakan beberapa jenis Assetionn yang dapat digunakan
+* Response Assertion
+* Duration Assertion
+* JSON Assertion
+
+JMeter adalah alat sumber terbuka yang digunakan untuk melakukan pengujian performa dan pengujian beban (load testing) pada aplikasi, terutama aplikasi berbasis web. Fitur-fitur utama JMeter memungkinkan pengguna untuk mengukur kinerja aplikasi dalam kondisi tertentu, termasuk seberapa baik aplikasi menangani banyak permintaan dari pengguna secara bersamaan.
+
+Berikut adalah beberapa fitur utama yang ada di JMeter:
+
+1. **Pengujian Performa (Performance Testing)**:
+   - JMeter dapat digunakan untuk mengukur waktu respons aplikasi dan kemampuan sistem dalam menangani beban pengguna yang banyak.
+   - Mendukung pengujian berbagai jenis aplikasi, seperti aplikasi web, server, database, dan aplikasi berbasis API (REST, SOAP).
+
+2. **Pengujian Beban (Load Testing)**:
+   - Dapat mengsimulasikan beban pengguna dengan jumlah yang tinggi secara simultan untuk mengukur bagaimana aplikasi merespons ketika jumlah pengguna meningkat.
+   - Membantu menganalisis apakah aplikasi dapat menangani jumlah permintaan yang tinggi tanpa mengalami penurunan kinerja.
+
+3. **Pengujian Stres (Stress Testing)**:
+   - JMeter memungkinkan pengujian pada kapasitas maksimal aplikasi untuk melihat bagaimana aplikasi bertahan di bawah kondisi ekstrem, misalnya ketika pengguna melebihi batas kapasitasnya.
+   
+4. **Mendukung Protokol Beragam**:
+   - JMeter mendukung berbagai protokol dan teknologi seperti HTTP, HTTPS, FTP, JDBC, JMS, LDAP, POP3, IMAP, dan banyak lainnya. Ini memungkinkan pengujian pada aplikasi yang berbasis berbagai jenis protokol.
+
+5. **Pengujian API (API Testing)**:
+   - JMeter sangat berguna untuk menguji API berbasis REST atau SOAP. Dengan fitur ini, pengembang dapat mengirim permintaan API dan mengukur respon yang diterima dari server.
+   
+6. **Rekaman Skrip Pengujian**:
+   - Dengan menggunakan "HTTP(S) Test Script Recorder", JMeter memungkinkan untuk merekam aktivitas pengguna (seperti klik atau permintaan HTTP) di browser dan kemudian menghasilkan skrip otomatis untuk pengujian lebih lanjut.
+
+7. **Fleksibilitas dalam Pengujian Skenario yang Kompleks**:
+   - JMeter memungkinkan pembuatan pengujian yang sangat kompleks, seperti menggunakan *looping*, pengambilan keputusan (conditional logic), atau memanipulasi data secara dinamis melalui penggunaan variabel dan parameter.
+
+8. **Grafik dan Laporan Kinerja**:
+   - JMeter menyediakan berbagai alat untuk visualisasi hasil pengujian, termasuk grafik, tabel, dan laporan yang memungkinkan analisis mendalam terhadap kinerja aplikasi yang diuji.
+
+9. **Integrasi dengan CI/CD**:
+   - JMeter dapat diintegrasikan dengan alat Continuous Integration/Continuous Deployment (CI/CD) seperti Jenkins untuk mengotomatiskan pengujian dan integrasi dalam pipeline pengembangan perangkat lunak.
+
+10. **Distribusi Pengujian (Distributed Testing)**:
+    - JMeter mendukung pengujian terdistribusi, di mana pengujian dapat dijalankan pada beberapa mesin secara bersamaan untuk meningkatkan beban simulasi dan menguji sistem dalam skala yang lebih besar.
+
+11. **Pengujian Keamanan**:
+    - Meskipun bukan fitur utamanya, JMeter dapat digunakan untuk menguji beberapa aspek keamanan aplikasi, seperti mengirim permintaan dengan data yang salah atau mencoba mengeksploitasi kerentanannya.
+
+12. **Plugin**:
+    - JMeter memiliki sistem plugin yang memungkinkan pengguna menambah dan menyesuaikan fungsionalitasnya. Ada banyak plugin yang tersedia, mulai dari yang untuk pengujian grafis, analisis kinerja, hingga integrasi dengan berbagai alat lain.
+
+JMeter sangat populer di kalangan pengembang dan QA engineer untuk memastikan aplikasi web dan layanan API dapat menangani beban yang diperlukan dengan baik, serta meminimalkan potensi masalah performa yang dapat memengaruhi pengalaman pengguna.
