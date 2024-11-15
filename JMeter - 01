@@ -1,0 +1,26 @@
+JMeter
+
+JMeter adalah tools yang bersifat open-source yang digunakan unutk melakukan performance test.
+Performance test yang paling umum dilakukan adalah menguji apakah sebuah aplikasi siap untuk dapat diakses oleh banyak
+pengguna sekaligus.
+JMeter adalah sebuah alat open-source yang digunakan untuk melakukan pengujian kinerja (performance testing) dan pengujian fungsional (functional testing) pada aplikasi perangkat lunak. JMeter awalnya dikembangkan untuk menguji aplikasi web, tetapi sekarang dapat digunakan untuk menguji berbagai jenis aplikasi lainnya, termasuk aplikasi database, layanan web (web services), FTP server, dan lain-lain.
+
+Beberapa fitur utama JMeter adalah:
+
+Pengujian Kinerja: JMeter dapat mensimulasikan berbagai macam pengguna yang mengakses aplikasi secara bersamaan (load testing) untuk melihat bagaimana kinerja aplikasi dalam kondisi beban tinggi.
+
+Pengujian Beban (Load Testing): JMeter dapat meniru banyak pengguna untuk menguji bagaimana server, jaringan, atau perangkat keras lainnya merespons di bawah tekanan atau beban.
+
+Pengujian Fungsional: Selain pengujian kinerja, JMeter juga dapat digunakan untuk memverifikasi fungsionalitas dari aplikasi atau layanan dengan mengirimkan permintaan HTTP atau protokol lain dan memeriksa respons yang diterima.
+
+Antarmuka Pengguna Grafis (GUI): JMeter dilengkapi dengan GUI yang memungkinkan pengguna membuat, menjalankan, dan menganalisis uji coba dengan mudah tanpa menulis banyak kode.
+
+Ekstensi dan Pengembangan: JMeter mendukung berbagai macam plugin dan memungkinkan pengembangan lebih lanjut untuk disesuaikan dengan kebutuhan pengujian.
+
+Multi-protokol: Selain HTTP, JMeter juga mendukung berbagai protokol lain seperti HTTPS, FTP, JDBC (untuk database), JMS, dan lainnya.
+
+Penggunaan JMeter:
+Stress Testing: Untuk memeriksa seberapa jauh aplikasi dapat ditingkatkan tanpa mengalami kegagalan.
+Load Testing: Untuk memastikan aplikasi dapat menangani jumlah pengguna atau transaksi tertentu dalam jangka waktu tertentu.
+Regression Testing: Memastikan bahwa perubahan pada aplikasi tidak merusak fungsionalitas yang sudah ada.
+Secara keseluruhan, JMeter adalah alat yang sangat berguna dalam memastikan kualitas aplikasi terkait kinerja dan fungsionalitas, terutama pada skala besar dan dalam lingkungan yang sangat terdistribusi.
